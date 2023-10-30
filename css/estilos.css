@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.div-contenedor{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    gap:10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 4fr 2fr 2fr;
+    grid-template-areas: 
+        'header     der'
+        'sect1     sect1'
+        'sect2     sect2'
+        'footer     footer'
+        ;
+    height: 150vh;
+}
+header{
+    grid-area: header;
+}
+.div-nav{
+    grid-area: der;
+    
+}
+.section1{
+    grid-area: sect1;
+}
+.section2{
+    grid-area: sect2;
+}
+footer{
+    grid-area: footer;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+}
+li{
+    display: block;
+    padding: 15px;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    float:left;
+}
+button{
+    cursor: pointer;
+}
+
+
+/*@media(min-width:500px) {*/
+   
+
+   
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: rgb(43, 13, 237);
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(43, 13, 237);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: rgb(43, 13, 237);
+}
+/*Nosotros*/
+.container {
+    margin: auto;
+
+}
+.section {
+    width: 75%;
+    margin: auto;
+    padding: 75px 0;
+
+}
+.section-title{
+    font-family:"roboto",sans-serif;
+    font-size: 40px;
+    color: rgb(130, 176, 255);
+    font-weight: bold;
+    margin: 25px 0;
+
+}
+.us{
+    display: flex;
+
+}
+.us-text{
+    width: 60%;
+    padding: 0 10% 0 0;
+
+}
+.paragraph-text{
+    margin: 10px 0;
+
+}
+.us-paragraph{
+    font-family:"roboto",sans-serif;
+    font-size: 18px;
+    color: #505050;
+    text-align: justify;
+    
+
+}
+.us-rs{
+    margin: 20px 0;
+
+}
+.us-rs-title{
+    font-family:"roboto",sans-serif;
+    font-size: 20px;
+    color: rgb(130, 176, 255);
+    font-weight: bold;
+    margin: 30px 0;
+
+
+}
+.rs-icon{
+    margin: 20px 0;
+    
+}
+.rs-link{
+    margin: 0 10px;
+
+}
+.us-img{
+    width: 60%;
+
+}
+.img-img{
+    object-fit: cover;
+    width: 100%;
+    
+
+}
